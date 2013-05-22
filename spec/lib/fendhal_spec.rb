@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe Actions do
+describe Fendhal do
   it 'exists' do end
 end

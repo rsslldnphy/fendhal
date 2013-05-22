@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.homepage      = 'http://github.com/rsslldnphy/fendhal'
 
+  s.add_dependency "actionpack"
   s.add_development_dependency "rspec"
   s.add_development_dependency "simplecov"
 

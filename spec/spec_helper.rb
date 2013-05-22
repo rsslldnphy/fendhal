@@ -4,7 +4,7 @@ SimpleCov.start do
 end
 
 require 'rspec'
-require 'actions'
+require 'fendhal'
 
 RSpec.configure do |config|
   config.order = :rand
