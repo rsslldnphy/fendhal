@@ -1,8 +1,8 @@
 require 'action_controller'
 require 'delegate'
 
-require 'fendhal/controller'
-require 'fendhal/action'
+require_relative 'fendhal/controller'
+require_relative 'fendhal/action'
 
 module Fendhal
 end

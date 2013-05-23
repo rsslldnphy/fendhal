@@ -3,7 +3,8 @@ require 'spec_helper'
 module Fendhal
   describe Controller do
 
-    class TestController < Controller
+    class TestController
+      extend Fendhal::Controller
 
       class Index < Action
 
